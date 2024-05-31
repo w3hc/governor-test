@@ -3,8 +3,6 @@ import "@nomicfoundation/hardhat-toolbox"
 import "@nomicfoundation/hardhat-verify"
 import "hardhat-deploy"
 import * as dotenv from "dotenv"
-import "./tasks/mint"
-import "./tasks/send"
 dotenv.config()
 
 const {
